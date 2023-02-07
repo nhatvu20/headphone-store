@@ -15,6 +15,17 @@
 <body>
     <!-- Header start -->
     <header>
+        <!-- Header on mobie start -->
+        <div class="header-mobile">
+            <div class="logo-mobile">
+                <a href="#">ATShop</a>
+            </div>
+            <div class="menu-toggle">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+        <!-- Header on mobie end -->
+
         <div class="header">
             <!-- Top bar start -->
             <div class="topbar">
@@ -60,7 +71,10 @@
             <!-- Top bar end -->
             <!-- Mid bar start -->
             <div class="midbar">
-                <div class="logo"><a href="#">ATShop</a></div>
+                <div class="logo">
+                    <a href="#">ATShop</a>
+                    <button onclick="close_menu()"><i class="fa-solid fa-xmark"></i></button>
+                </div>
                 <div class="searchbar">
                     <input type="search" name="" id="" placeholder="Search">
                     <a href="#">
@@ -236,7 +250,171 @@
     </section>
     <!-- Promotion end -->
 
+    <!-- Lastest product start -->
+    <section id="product" class="product">
+        <div class="container">
+            <h1 class="heading">LATEST PRODUCT</h1>
+            <div id="product-container" class="box-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="./images/JBL_Quantum_400_Product Image_Hero 02.png" alt="" class="img-font">
+                        <img src="./images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="" class="img-back">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-btn">
+                            <button>shop now</button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                        <div class="box-text">
+                            <h3>JBL Quantum 400</h3>
+                            <div class="price">
+                                <span class="old-price">$300</span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-view">view all</button>
+        </div>
+    </section>
+    <!-- Lastest product end -->
+
+    <!-- hot-product start -->
+    <section id="hot-product" class="hot-product">
+        <div class="hot-product-container">
+            <div class="hot-product-img">
+                <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+            </div>
+            <div class="hot-product-content">
+                <h1>
+                    JBL TUNE 750TNC</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Labore dignissimos itaque et eaque quod harum vero autem? 
+                    Reprehenderit enim non voluptate! Qui provident modi est non 
+                    eius ratione, debitis iure.</p>
+                <button class="btn">shop now</button>
+            </div>
+        </div>
+    </section>
+    <!-- hot-product end -->
     
+    <!-- best-selling-product start -->
+    <section id="best-selling-products" class="best-selling-products">
+        <div class="container">
+            <h1 class="heading">best selling</h1>
+            <div id="best-selling-container" class="box-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="./images/JBL_Quantum_400_Product Image_Hero 02.png" alt="" class="img-font">
+                        <img src="./images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="" class="img-back">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-btn">
+                            <button>shop now</button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                        <div class="box-text">
+                            <h3>JBL Quantum 400</h3>
+                            <div class="price">
+                                <span class="old-price">$300</span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-view">view all</button>
+        </div>
+    </section>
+    <!-- best-selling-product end-->
+
+    <!-- Lasttest Blog start -->
+    <section id="blog" class="blog">
+        <div class="blog-container">
+            <h1 class="heading">lasttest blog</h1>
+            <div class="blog-content">
+                <div class="blog-img">
+                    <img src="./images/JBL_Quantum400_Lifestyle1.png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. 
+                        Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, 
+                        quam ducimus! Nisi doloremque praesentium laudantium repellat.</p>
+                    <button class="btn">read more</button>
+                </div>
+            </div>
+            <div class="blog-content">
+                <div class="blog-img">
+                    <img src="./images/JBL_TUNE220TWS_Lifestyle_black.png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. 
+                        Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, 
+                        quam ducimus! Nisi doloremque praesentium laudantium repellat.</p>
+                    <button class="btn">read more</button>
+                </div>
+            </div>
+        </div>
+        <button class="btn">view all</button>
+    </section>
+    <!-- Lasttest Blog end -->
+
+    <!-- Footer start -->
+    <footer>
+        <div class="row">
+            <div class="list-control-box">
+                <h3>PRODUCTS</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Product Help</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+            <div class="list-control-box">
+                <h3>SERVICES</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Product Help</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+            <div class="list-control-box">
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Product Help</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <div class="logo"><a href="#">ATShop</a></div>
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <form class="subscribe-box" action="">
+                    <input type="text" placeholder="enter your email">
+                    <button class="subscribe">surcribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer end -->
+
     <script src="./js/index.js"></script>
 </body>
 </html>
