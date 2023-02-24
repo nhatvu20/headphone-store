@@ -32,7 +32,7 @@ function prev(){
 }
 
 // auto show slide
-// setInterval(next, 7000);
+setInterval(next, 7000);
 
 // Render lastest product (data)
 let data_products=[

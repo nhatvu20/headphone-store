@@ -18,7 +18,7 @@
         <!-- Header on mobie start -->
         <div class="header-mobile">
             <div class="logo-mobile">
-                <a href="#">ATShop</a>
+                <a href="./index.html">ATShop</a>
             </div>
             <div class="menu-toggle">
                 <a href="#"><i class="fa-solid fa-bars"></i></a>
@@ -72,7 +72,7 @@
             <!-- Mid bar start -->
             <div class="midbar">
                 <div class="logo">
-                    <a href="#">ATShop</a>
+                    <a href="./index.html">ATShop</a>
                     <button onclick="close_menu()"><i class="fa-solid fa-xmark"></i></button>
                 </div>
                 <div class="searchbar">
@@ -95,7 +95,7 @@
             <!-- End bar start -->
             <div class="endbar">
                 <ul>
-                    <li><a href="#">home</a></li>
+                    <li><a href="./index.html">home</a></li>
                     <li>
                         <a href="#">shop
                             <i class="fa-sharp fa-solid fa-chevron-down"></i>
@@ -168,22 +168,22 @@
     <!-- Header end -->
 
     <!-- Product detail container start -->
-    <div class="product-detail-container">
-        <div class="breadcumb">
-            <a href="#">Home</a>
-            <span><i class="fa-solid fa-angles-right"></i></span>
-            <a href="#">All Product</a>
-            <span><i class="fa-solid fa-angles-right"></i></span>
-            <a href="#">JBL Tune 750TNC</a>
-        </div>
+    <section class="breadcumb" id="#breadcumb">
+        <a href="./index.html">Home</a>
+        <span><i class="fa-solid fa-angles-right"></i></span>
+        <a href="#">All Product</a>
+        <span><i class="fa-solid fa-angles-right"></i></span>
+        <a href="#">JBL Tune 750TNC</a>
+    </section>
+    <section class="product-detail-container">
         <div class="box">
             <div class="box-img">
                 <div class="big-img">
                     <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
-                </div>
-                <div class="small-img">
-                    <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
-                    <img src="./images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+                    <div class="small-img">
+                        <img class="img-featured" src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                        <img class="img-featured" src="./images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+                    </div>
                 </div>
             </div>
             <div class="content">
@@ -197,12 +197,215 @@
                     <i class="fa-solid fa-star"></i>
                 </p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo libero alias officiis dolore doloremque 
-                    eveniet culpa dignissimos, itaque, cum animi excepturi sed veritatis asperiores soluta, nisi atque quae illum. Ipsum.</p>
+                    eveniet culpa dignissimos, itaque, cum animi excepturi sed veritatis asperiores soluta, nisi atque quae illum. Ipsum.
+                </p>
+                <span class="price">2345$</span>
+                <!-- <input type="number" name="" id="" max="10" min="0" value="0"> -->
+                <div class="quantity">
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <input type="text" value="1">
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <button class="btn">add to cart</button>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Product detail container end -->
 
+    <!-- Drescription detail start -->
+    <section class="drescription-detail" id="drescription-detail">
+        <h4>Description</h4>
+        <button class="btn view-op view-more active">view more</button>
+        <div class="drescription-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laudantium obcaecati odit dolorem, doloremque accusamus esse 
+                neque ipsa dignissimos saepe quisquam tempore perferendis deserunt sapiente! Recusandae illum totam earum ratione. Lorem 
+                ipsum dolor sit, amet consectetur adipisicing elit. Aliquam incidunt maxime rerum reprehenderit voluptas asperiores ipsam quas 
+                consequuntur maiores, at odit obcaecati vero sunt! Reiciendis aperiam perferendis consequuntur odio quas. Lorem ipsum dolor sit
+                 amet consectetur adipisicing elit. Ut quaerat eum veniam doloremque nihil repudiandae odio ratione culpa libero tempora.
+                 Expedita, quo molestias. Minus illo quis dignissimos aliquid sapiente error!
+            </p>
+            <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium officia, quae fuga in exercitationem aliquam labore ex 
+                doloribus repellendus beatae facilis ipsam. Veritatis vero obcaecati iste atque aspernatur ducimus. Lorem ipsum dolor sit, amet 
+                consectetur adipisicing elit. Repellat quam praesentium id sit amet magnam ad, dolorum, cumque iste optio itaque expedita eius 
+                similique, ab adipisci dicta. Quod, quibusdam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, in corrupti 
+                ipsam sint error possimus commodi incidunt suscipit sit voluptatum quibusdam enim eligendi animi deserunt recusandae earum natus 
+                voluptas blanditiis?
+            </p>
+            <img src="./images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam quam fugit veniam ipsum recusandae incidunt, ex ratione, magnam 
+                labore ad tenetur officia! In, totam. Molestias sapiente deserunt animi porro?
+            </p>
+            <button class="btn view-op view-less">view less</button>
+        </div>
+    </section>
+    <!-- Drescription detail end -->
+
+    <!-- Review start -->
+    <section class="review" id="review">
+        <h4>Review</h4>
+        <div class="box-review">
+            <div class="name-account">
+                <div class="img">
+                    <a href="#">
+                        <img src="./images/sen-da-dep.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nameAndRate">
+                    <h5><a href="#">Nguyễn Như Nhất Vũ</a></h5>
+                    <p class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea iste, veritatis nobis amet illum, cum alias magni dolores odio, 
+                    eius quo excepturi veniam ipsa voluptatibus natus voluptas vero? Aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="box-review">
+            <div class="name-account">
+                <div class="img">
+                    <a href="#">
+                        <img src="./images/sen-da-dep.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nameAndRate">
+                    <h5><a href="#">Nguyễn Như Nhất Vũ</a></h5>
+                    <p class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea iste, veritatis nobis amet illum, cum alias magni dolores odio, 
+                    eius quo excepturi veniam ipsa voluptatibus natus voluptas vero? Aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="box-review">
+            <h3></h3>
+            <div class="name-account">
+                <div class="img">
+                    <a href="#">
+                        <img src="./images/sen-da-dep.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nameAndRate">
+                    <h5><a href="#">Nguyễn Như Nhất Vũ</a></h5>
+                    <p class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea iste, veritatis nobis amet illum, cum alias magni dolores odio, 
+                    eius quo excepturi veniam ipsa voluptatibus natus voluptas vero? Aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="box-review">
+            <div class="name-account">
+                <div class="img">
+                    <a href="#">
+                        <img src="./images/sen-da-dep.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nameAndRate">
+                    <h5><a href="#">Nguyễn Như Nhất Vũ</a></h5>
+                    <p class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea iste, veritatis nobis amet illum, cum alias magni dolores odio, 
+                    eius quo excepturi veniam ipsa voluptatibus natus voluptas vero? Aspernatur!
+                </p>
+            </div>
+        </div>
+        <div class="box-review">
+            <div class="name-account">
+                <div class="img">
+                    <a href="#">
+                        <img src="./images/sen-da-dep.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nameAndRate">
+                    <h5><a href="#">Nguyễn Như Nhất Vũ</a></h5>
+                    <p class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea iste, veritatis nobis amet illum, cum alias magni dolores odio, 
+                    eius quo excepturi veniam ipsa voluptatibus natus voluptas vero? Aspernatur!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Review end -->
+
+    <section class="pagination">
+        <ul class="pagination-content">
+            <li><a href="#" class="arrow"><i class="fa-solid fa-chevron-left"></i></a></li>
+            <li> <a href="#" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" class="arrow"><i class="fa-solid fa-chevron-right"></i></a></li>
+        </ul>
+    </section>
+
+    <section class="related-product">
+        <div class="container">
+            <div id="related-container" class="box-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="./images/JBL_Quantum_400_Product Image_Hero 02.png" alt="" class="img-font">
+                        <img src="./images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="" class="img-back">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-btn">
+                            <button>shop now</button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                        <div class="box-text">
+                            <h3>JBL Quantum 400</h3>
+                            <div class="price">
+                                <span class="old-price">$300</span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer start -->
     <footer>
@@ -238,7 +441,7 @@
                 </ul>
             </div>
             <div class="footer-contact">
-                <div class="logo"><a href="#">ATShop</a></div>
+                <div class="logo"><a href="./index.html">ATShop</a></div>
                 <div class="icons">
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
@@ -256,5 +459,6 @@
     <!-- Footer end -->
 
     <script src="./js/index.js"></script>
+    <script src="./js/product_detail.js"></script>
 </body>
 </html>
