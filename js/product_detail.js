@@ -56,14 +56,14 @@ let related_products = [
         old_price: '400',
         curr_price: '300'
     },
-    // {
-    //     id:'6',
-    //     name: 'UA Project Rock',
-    //     image1: './images/190402_E1_FW19_EarbudsWCase_S13_0033-1_1605x1605_HERO.png',
-    //     image2: './images/190402_E1_FW19_EarbudsWCase_S13_0033-1_1605x1605_BACK.png',
-    //     old_price: '400',
-    //     curr_price: '300'
-    // },
+    {
+        id:'6',
+        name: 'UA Project Rock',
+        image1: './images/190402_E1_FW19_EarbudsWCase_S13_0033-1_1605x1605_HERO.png',
+        image2: './images/190402_E1_FW19_EarbudsWCase_S13_0033-1_1605x1605_BACK.png',
+        old_price: '400',
+        curr_price: '300'
+    },
     // {
     //     id:'7',
     //     name: 'JBL Endurance SPRINT',

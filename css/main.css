@@ -862,7 +862,7 @@ footer .icons a{
     .header-mobile-active {
         display: block;
         position: fixed;
-        z-index: 100;
+        z-index: 101;
         width: 100%;
         left: 0;
         top: 0;
@@ -996,14 +996,25 @@ footer .icons a{
     }
 
     .slides button {
-        margin-top: 1.5rem;
+        /* margin-top: 1.5rem; */
     }
 
+    .btn {
+        margin-top: unset;
+    }
+
+    .btn-view {
+        margin-bottom: unset;
+    }
     /* Slides mobile end */
 
     /* Promotion tablet start */
     .promotion .promotion-container .box{
         width: 100%;
+    }
+
+    .promotion h3 {
+        margin-bottom: 1.5rem;
     }
     /* Promotion tablet end */
 

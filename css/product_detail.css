@@ -169,6 +169,7 @@
 
 .drescription-detail .view-less {
     position: relative;
+    margin-top: 20px;
 }
 
 /* Drescription end*/
@@ -283,9 +284,18 @@
         width: 100%;
     }
 
+    .product-detail-container .quantity {
+        margin-bottom: 2.5rem;
+    }
+
     .related-product .box-container .box {
         width: 50%;
     } 
+    
+    .pagination {
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
 }
 
 @media (max-width: 750px) {
