@@ -150,7 +150,7 @@ let box_detail=`
         <!-- <input type="number" name="" id="" max="10" min="0" value="0"> -->
         <div class="quantity">
             <button class="minus"><i class="fa-solid fa-minus"></i></button>
-            <input type="text" value="1">
+            <input type="number" value="1">
             <button class="plus"><i class="fa-solid fa-plus"></i></button>
         </div>
         <button class="btn">add to cart</button>

@@ -872,6 +872,10 @@ footer .icons a{
 
     .logo button {
         display: block; 
+        padding: 1rem;
+        cursor: pointer;
+        background: var(--main-bg-color);
+        border:0.2rem solid var(--main-bg-color);
     }
 
     /* header toggle end*/

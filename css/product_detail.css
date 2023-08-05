@@ -92,7 +92,7 @@
     margin-top: 2.5rem;
     display: inline-block;
 }
-
+.product-detail-container input[type="number"],
 .product-detail-container input[type="text"] {
     padding: 1rem;
     /* display: block; */
@@ -218,6 +218,7 @@
 
 .pagination-content {
     display: flex;
+    gap:0.4rem;
 }
 
 .pagination-content a{
