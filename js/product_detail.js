@@ -150,7 +150,7 @@ let box_detail=`
         <!-- <input type="number" name="" id="" max="10" min="0" value="0"> -->
         <div class="quantity">
             <button class="minus"><i class="fa-solid fa-minus"></i></button>
-            <input type="number" value="1">
+            <input type="number" value="1" min="0" max="10">
             <button class="plus"><i class="fa-solid fa-plus"></i></button>
         </div>
         <button class="btn">add to cart</button>
@@ -198,7 +198,7 @@ btnminus.addEventListener('click', ()=>{
 
 quantity.onkeyup = ()=>{
     let newValue=parseInt(quantity.value);
-    if(isNaN(newValue)){
+    if(isNaN(newValue)||newValue>10){
         newValue=1;
     }
     render(newValue);
